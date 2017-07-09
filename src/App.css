@@ -1,0 +1,62 @@
+body{
+  padding: 15px;
+  background-color: #fbffff;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;;
+}
+
+.row {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+}
+.row:nth-child(odd) {
+  background-color: #ddfafd;
+}
+.row:nth-child(even) {
+  background-color: #b5edf3; 
+}
+
+.row.review-row:nth-child(odd) {
+  background-color: #eeffd9;
+}
+.row.review-row:nth-child(even) {
+  background-color: #d7ffce; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.reading {
+  font-size: 1.5em;
+}
+
+.engrish {
+  font-size: 0.2em;
+}
+
+.kanji {
+  font-size: 4em;
+  width: 100%;
+}
+
+.review-label {
+  font-size: 0.5em;
+}
+
+.setInput {
+  width: 100%;
+  font-size: 1.4em;
+  text-align: center;
+}
